@@ -1,0 +1,13 @@
+.app-shell {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.search-overlay {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: min(420px, calc(100% - 32px));
+  z-index: 1000;
+}

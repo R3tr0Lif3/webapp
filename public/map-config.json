@@ -1,0 +1,10 @@
+{
+  "hereApiKey": "o-1fYDw9aOfntxsjbILREO6t1LLw5YJzl-KxqWxf_sQ",
+  "tileUrlTemplate": "http://localhost:8083/styles/basic/{z}/{x}/{y}.png",
+  "tileAttribution": "&copy; OpenStreetMap contributors",
+  "countryCode": "COL",
+  "defaultCenter": [4.5709, -74.2973],
+  "defaultZoom": 6,
+  "minZoom": 5,
+  "maxZoom": 19
+}

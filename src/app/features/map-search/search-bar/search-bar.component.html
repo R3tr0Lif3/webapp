@@ -1,0 +1,19 @@
+<div class="search-box">
+  <input
+    type="text"
+    class="search-input"
+    placeholder="Buscar una dirección en Colombia..."
+    [formControl]="queryControl"
+    autocomplete="off"
+  />
+
+  @if (results().length > 0) {
+    <ul class="results-list">
+      @for (result of results(); track result.id) {
+        <li class="result-item" (click)="select(result)">
+          {{ result.label }}
+        </li>
+      }
+    </ul>
+  }
+</div>
