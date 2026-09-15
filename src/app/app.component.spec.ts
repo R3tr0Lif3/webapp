@@ -16,7 +16,7 @@ describe('AppComponent', () => {
           useValue: {
             get: () => ({
               hereApiKey: 'test-api-key',
-              tileUrlTemplate: 'http://localhost:8080/styles/basic-preview/{z}/{x}/{y}.png',
+              tileUrlTemplate: 'http://localhost:8083/styles/basic-preview/{z}/{x}/{y}.png',
               tileAttribution: '',
               countryCode: 'COL',
               defaultCenter: [4.5709, -74.2973],
